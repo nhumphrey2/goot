@@ -3136,7 +3136,7 @@ button.list-group-item-danger {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -3350,7 +3350,7 @@ html {
 
 body {
   margin: 0;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: Roboto;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
@@ -3760,7 +3760,7 @@ template {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -3860,7 +3860,7 @@ tbody.collapse.show {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: Roboto;
   font-weight: 500;
   line-height: 1.1;
   color: inherit; }
