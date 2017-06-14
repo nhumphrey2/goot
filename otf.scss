@@ -12,9 +12,9 @@ $brand-inverse:             #292b2c;
 // Quickly modify global styling by enabling or disabling optional features.
  
 $enable-rounded:            true !default;
-$enable-shadows:            true;
+$enable-shadows:            true;!default;
 
-$enable-gradients:          true;
+$enable-gradients:          true;!default;
 
 
 
@@ -60,4 +60,6 @@ $display4-size: 3.5 * $font-size-base;
 
 
 $enable-opacity: true;
+
+
 @import 'bootstrap-4.0.0-alpha.6';
