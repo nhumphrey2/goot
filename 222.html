@@ -7,13 +7,14 @@
   <link rel="stylesheet" href="bootstrap4VolExampe.css" type="text/css"> </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-light bg-faded text-center sticky-top">
-    <div class="container-fluid">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-      <div class="collapse navbar-collapse text-center justify-content-center" id="navbar2SupportedContent">
-        <ul class="navbar-nav">
+  <nav class="navbar navbar-expand-md navbar-light bg-faded">
+    <div class="container">
+      <a class="navbar-brand" href="#">Volano Portal</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"><i class="fa fa-user fa-fw"></i>Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Features</a>
@@ -25,6 +26,10 @@
             <a class="nav-link" href="#">About</a>
           </li>
         </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
       </div>
     </div>
   </nav>
@@ -43,19 +48,41 @@
             <li class="list-group-item">UI Elements</li>
             <li class="list-group-item">Panels and Wells</li>
             <li class="list-group-item">Buttons</li>
-            <div class="btn-group text-center">
-              <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Dropdown </button>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Separated link</a>
-              </div>
+            <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> UI Elements</button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Panels and Wells</a>
             </div>
             <li class="list-group-item">Cras justo odio</li>
           </ul>
         </div>
         <div class="col-md-9">
           <h1 class="p-4">Dashboard</h1>
+          <div class="row pi-draggable" draggable="true">
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-block">
+                  <h4 class=" card-title">Card title</h4>
+                  <h4 class=" card-subtitle text-muted text-right mx-4">26</h4>
+                  <p class="card-text p-y-1 text-right">New Comments!</p>
+                  <a href="#" class="card-link">View Details</a>
+                  <a href="#" class="d-inline float-right">Second link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-block">
+                  <h4 class="card-title">Card title</h4>
+                  <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                  <p class="card-text p-y-1">Some quick example text to build on the card title .</p>
+                  <a href="#" class="card-link">link</a>
+                  <a href="#" class="card-link">Second link</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
