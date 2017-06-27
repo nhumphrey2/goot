@@ -7,30 +7,30 @@
   <link rel="stylesheet" href="bootstrap4VolExampe.css" type="text/css"> </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-inverse bg-inverse px-3 text-left">
+  <nav class="navbar navbar-expand-md navbar-inverse bg-inverse text-left px-0">
     <div class="hidden-xs container">
       <a class="navbar-brand hidden-sm-down hidden-xs " href="#">Volano Portal</a>
     </div>
     <button class="navbar-toggler navbar-toggler-right text-white text-center my-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon text-right"></span> </button>
-    <div class="collapse navbar-collapse justify-content-start" id="navbarSupportedContent">
-      <ul class="d-inline-flex navbar-nav mr-auto d-flex flex-row list-unstyled text-justify">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="d-inline-flex navbar-nav mr-auto d-flex flex-row list-unstyled text-left">
         <li class="nav-item active d-inline p-2 mx-3">
-          <a class="nav-link dropdown-toggle" href="#"><i class="fa fa-fw fa-envelope fa-2x align-baseline d-inline bg-inverse"></i><span class="sr-only">(current)</span></a>
+          <a class="nav-link dropdown-toggle" href="#"><i class="fa fa-fw fa-envelope align-baseline bg-inverse fa-lg d-inline p-2"></i><span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active d-inline p-2 mx-3">
-          <a class="nav-link dropdown-toggle" href="#"><i class="fa fa-fw fa-2x d-inline fa-align-left bg-inverse"></i><span class="sr-only">(current)</span></a>
+          <a class="nav-link dropdown-toggle" href="#"><i class="fa fa-fw d-inline fa-align-left bg-inverse fa-lg p-2"></i><span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active p-2 mx-3">
-          <a class="nav-link dropdown-toggle" href="#"><i class="fa fa-fw fa-2x d-inline fa-bell bg-inverse"></i><span class="sr-only">(current)</span></a>
+          <a class="nav-link dropdown-toggle" href="#"><i class="fa fa-fw d-inline fa-bell bg-inverse fa-lg p-2"></i><span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active p-2 mx-3">
-          <a class="nav-link dropdown-toggle" href="#"><i class="fa fa-fw fa-2x d-inline fa-user bg-inverse"></i><span class="sr-only">(current)</span></a>
+          <a class="nav-link dropdown-toggle" href="#"><i class="fa fa-fw fa-user bg-inverse fa-lg d-inline p-2"></i><span class="sr-only">(current)</span></a>
         </li>
       </ul>
-      <form class="form-inline my-sm-0 text-left p-2 d-flex flex-row">
-        <input class="form-control mr-sm-2 form-control-sm d-inline-flex  " type="text" placeholder="Search">
-        <button class="btn btn-outline-success my-sm-0 btn-sm" type="submit">Search</button>
+      <form class="form-inline my-sm-0 text-left d-flex flex-row">
+        <input class="form-control mr-sm-2 d-inline-flex text-center form-control-sm" type="text" placeholder="Search">
+        <button class="btn btn-outline-success my-sm-0 btn-sm text-center" type="submit">Search</button>
       </form>
     </div>
   </nav>
@@ -38,18 +38,18 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-3 col-12 bg-faded navbar-default sidebar py-2" role="navigation">
-          <ul class="list-group">
+          <ul class="list-group text-left">
             <li class="list-group-item list-group-item-action"><i class="fa fa-home fa-fw"></i>
               <a href="http://localhost:51340/html/index.html">Dashboard</a>
             </li>
-            <li class="list-group-item">Charts</li>
+            <li class="list-group-item"><i class="fa fa-fw pull-right fa-angle-right"></i>Charts</li>
             <li class="list-group-item">Flow Charts</li>
             <li class="list-group-item ">Tables</li>
             <li class="list-group-item">Forms</li>
             <li class="list-group-item">UI Elements</li>
             <li class="list-group-item">Panels and Wells</li>
             <li class="list-group-item">Buttons</li>
-            <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> UI Elements</button>
+            <button class="btn btn-primary dropdown-toggle p-2 text-center" data-toggle="dropdown"> UI Elements</button>
             <div class="dropdown-menu text-center">
               <a class="dropdown-item" href="#">Action</a>
               <div class="dropdown-divider text-center mx-auto"></div>
@@ -63,7 +63,7 @@
             <div class="col-md-6 col-12">
               <div class="card">
                 <div class="card-block">
-                  <h4 class=" card-title"><span class="fa fa-comments fa-3x"></span></h4>
+                  <h4 class="card-title text-danger"><span class="fa fa-comments fa-3x"></span></h4>
                   <h4 class=" card-subtitle text-muted text-right m-x-4">26</h4>
                   <p class="card-text p-y-1 text-right">New Comments!</p>
                   <a href="#" class="card-link">View Details</a>
@@ -74,7 +74,7 @@
             <div class="col-md-6 col-12">
               <div class="card">
                 <div class="card-block">
-                  <h4 class=" card-title"><span class="fa fa-tasks fa-3x"></span></h4>
+                  <h4 class="card-title text-info"><span class="fa fa-tasks fa-3x"></span></h4>
                   <h4 class=" card-subtitle text-muted text-right m-x-4">12</h4>
                   <p class="card-text p-y-1 text-right">New Tasks!</p>
                   <a href="#" class="card-link">View Details</a>
@@ -85,7 +85,7 @@
             <div class="col-md-6 col-12">
               <div class="card">
                 <div class="card-block">
-                  <h4 class=" card-title"><span class="fa fa-shopping-cart fa-3x"></span></h4>
+                  <h4 class="card-title text-warning"><span class="fa fa-shopping-cart fa-3x"></span></h4>
                   <h4 class=" card-subtitle text-muted text-right m-x-4">124</h4>
                   <p class="card-text p-y-1 text-right">New Orders!</p>
                   <a href="#" class="card-link">View Details</a>
@@ -96,7 +96,7 @@
             <div class="col-md-6 w-50 col-12">
               <div class="card">
                 <div class="card-block">
-                  <h4 class=" card-title"><span class="fa fa-support fa-3x"></span></h4>
+                  <h4 class="card-title text-success"><span class="fa fa-support fa-3x"></span></h4>
                   <h4 class=" card-subtitle text-muted text-right m-x-4">26</h4>
                   <p class="card-text p-y-1 text-right">New Comments!</p>
                   <a href="#" class="card-link">View Details</a>
