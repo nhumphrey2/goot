@@ -1,16 +1,639 @@
 <html>
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.css" rel="stylesheet" type="text/css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <!-- Custom styles for this template -->
+  <link href="dashboard.css" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap4VolExampe.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="bootstrap4VolExampe.css">
+</head>
 
-  <body>
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-    <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
-  </body>
-  
+<body>
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded sticky-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <a class="navbar-brand" href="#">Navbar w/ text</a>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+      </ul> <span class="navbar-text">
+      Navbar text with an inline element
+    </span> </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">
+              <font>
+                <font>Overview </font>
+              </font><span class="sr-only"><font><font>(current)</font></font></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <font>
+                <font>reports</font>
+              </font>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <font>
+                <font>analytics</font>
+              </font>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <font>
+                <font>export</font>
+              </font>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <font>
+                <font>Also nav</font>
+              </font>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <font>
+                <font>Nav item again</font>
+              </font>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <font>
+                <font>One more nav</font>
+              </font>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <font>
+                <font>Another item nav</font>
+              </font>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <font>
+                <font>Nav item again</font>
+              </font>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <font>
+                <font>One more nav</font>
+              </font>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <font>
+                <font>Another item nav</font>
+              </font>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
+        <h1>
+          <font>
+            <font>The Dashboard</font>
+          </font>
+        </h1>
+        <section class="row text-center placeholders">
+          <div class="col-6 col-sm-3 placeholder">
+            <h4>
+              <font>
+                <font>label</font>
+              </font>
+            </h4>
+            <div class="text-muted">
+              <font>
+                <font>something else</font>
+              </font>
+            </div>
+          </div>
+          <div class="col-6 col-sm-3 placeholder">
+            <h4>
+              <font>
+                <font>label</font>
+              </font>
+            </h4> <span class="text-muted"><font><font>something else</font></font></span> </div>
+          <div class="col-6 col-sm-3 placeholder">
+            <h4>
+              <font>
+                <font>label</font>
+              </font>
+            </h4> <span class="text-muted"><font><font>something else</font></font></span> </div>
+          <div class="col-6 col-sm-3 placeholder">
+            <h4>
+              <font>
+                <font>label</font>
+              </font>
+            </h4> <span class="text-muted"><font><font>something else</font></font></span> </div>
+        </section>
+        <h2>
+          <font>
+            <font>section title</font>
+          </font>
+        </h2>
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>
+                  <font>
+                    <font>#</font>
+                  </font>
+                </th>
+                <th>
+                  <font>
+                    <font>header</font>
+                  </font>
+                </th>
+                <th>
+                  <font>
+                    <font>header</font>
+                  </font>
+                </th>
+                <th>
+                  <font>
+                    <font>header</font>
+                  </font>
+                </th>
+                <th>
+                  <font>
+                    <font>header</font>
+                  </font>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <font>
+                    <font>1,001</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>lorem</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>very</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>pain</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>let it be</font>
+                  </font>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <font>
+                    <font>1,002</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>carrots</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>Minneapolis</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>undergraduate</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>developer</font>
+                  </font>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <font>
+                    <font>1,003</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>integer</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>or</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>hate</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>present</font>
+                  </font>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <font>
+                    <font>1,003</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>free</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>However,</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>running</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>before</font>
+                  </font>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <font>
+                    <font>1,004</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>protein</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>diameter</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>However,</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>but</font>
+                  </font>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <font>
+                    <font>1,005</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>no</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>who</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>salad</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>at</font>
+                  </font>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <font>
+                    <font>1,006</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>nibh</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>element</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>financing</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>homework</font>
+                  </font>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <font>
+                    <font>1,007</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>arrows</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>very</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>present</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>mauris</font>
+                  </font>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <font>
+                    <font>1,008</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>Clinical</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>or</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>earth</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>and</font>
+                  </font>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <font>
+                    <font>1,009</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>propaganda</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>always</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>gateway</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>Moors</font>
+                  </font>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <font>
+                    <font>1,010</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>mass</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>manufacturing</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>skirt</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>bow</font>
+                  </font>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <font>
+                    <font>1,011</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>need</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>no</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>class</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>aptent</font>
+                  </font>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <font>
+                    <font>1,012</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>tacitly</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>hymenaeos</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>to</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>shores</font>
+                  </font>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <font>
+                    <font>1,013</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>twist</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>by</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>marriages</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>our</font>
+                  </font>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <font>
+                    <font>1,014</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>by</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>beginner</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>himenaeos</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>chat</font>
+                  </font>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <font>
+                    <font>1,015</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>members</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>Reserved</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>in</font>
+                  </font>
+                </td>
+                <td>
+                  <font>
+                    <font>free</font>
+                  </font>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
+</body>
+
 </html>
